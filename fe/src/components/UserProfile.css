@@ -1,0 +1,85 @@
+.user-profile {
+    font-family: 'Lato', sans-serif; 
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  }
+  
+  .user-profile h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 30px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .radio-group label {
+    display: block; 
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #97bfde;
+    color: rgbn (159, 105, 105);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  .edit-switch {
+    display: flex;
+    align-items: center; 
+    background-color: white; 
+    padding: 10px; 
+  }
+
+  .edit-switch-checkbox:checked + .edit-switch-label {
+    background-color: #023a73; 
+  }
+
+.edit-switch-text {
+  margin-right: 10px; 
+  font-size: 16px; 
+}
+.edit-switch-checkbox {
+  display: none;
+}
+
+
+.edit-switch-label {
+  position: relative;
+  display: block;
+  width: 34px;
+  height: 14px;
+  background-color: #ccc; 
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+  
+  button[type="submit"]:hover {
+    background-color: #a795ca;
+  }
+  

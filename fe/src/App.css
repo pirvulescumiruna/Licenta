@@ -1,0 +1,38 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap'); /* Import a new font from Google Fonts */
+
+body {
+  font-family: 'Roboto', sans-serif; /* Apply the font to the entire body */
+}
+
+.App-header {
+  background-color: white;
+  padding: 20px;
+  color: #023a73;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+}
+
+.header-icon {
+  font-size: 2rem; /* Set a larger font size for the icon */
+  margin-right: 9px;
+}
+
+.header-text {
+  font-size: 2rem; /* Set a smaller font size for the header text */
+}
+
+.profile-dropdown .dropdown-menu {
+  display: block;
+}
+
+.profile-dropdown .dropdown-item:hover {
+  background-color: #f1f1f1;
+}
